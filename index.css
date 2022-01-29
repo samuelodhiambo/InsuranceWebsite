@@ -165,3 +165,34 @@ nav ul.menu li a:hover {
     color: #23A6F0;
     font-size: 3rem;
 }
+
+.section3 {
+    margin-top: 100px;
+}
+
+.section3-head {
+    text-align: center;
+}
+
+.section3-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.rating {
+    color: yellow;
+}
+
+.user1, .user2, .user3 {
+    border: 1px solid #2a3358;
+    border-radius: 5px;
+    border-bottom: none;
+    padding: 30px;
+    background-color: white;
+}
+
+.user-img {
+    height: 200px;
+}
