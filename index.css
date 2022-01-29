@@ -4,7 +4,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
-    background-color: #252B42;
+    background-color: #2a33580a;
     opacity: 0.9;
 }
 
@@ -26,6 +26,7 @@ a {
     background-image: url('Assets/hero-cover3.png');
     background-size: cover;
     background-position: top left;
+    margin-bottom: 200px;
 }
 
 .logo {
@@ -125,7 +126,7 @@ nav ul.menu li a:hover {
 
 .banners div {
     /*idth: 20%;*/
-    margin-top: 55px;
+    margin-top: 0px;
     padding: 5px 20px;
     font-size: 0.9rem;
 }
@@ -146,4 +147,21 @@ nav ul.menu li a:hover {
     background-color: #23A6F0;
     margin: 10px 20px;
     width: 22%;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 100px;
+}
+
+.mind, .life, .satisfaction {
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.mind i, .life i, .satisfaction i {
+    color: #23A6F0;
+    font-size: 3rem;
 }
