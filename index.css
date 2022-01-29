@@ -120,25 +120,30 @@ nav ul.menu li a:hover {
 .banners {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .banners div {
     /*idth: 20%;*/
-    margin-top: 0px;
-    padding: 30px;
+    margin-top: 55px;
+    padding: 5px 20px;
+    font-size: 0.9rem;
 }
 
 .banner-img {
-    height: 100px;
+    height: 70px;
 }
 
 .banner1, .banner2 {
     border: 1px solid white;
     box-shadow: 0px 10px 10px gray;
     background-color: white;
+    margin: 10px 20px;
+    width: 22%;
 }
 
 .banner3 {
     background-color: #23A6F0;
+    margin: 10px 20px;
+    width: 22%;
 }
