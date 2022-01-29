@@ -186,7 +186,7 @@ nav ul.menu li a:hover {
 }
 
 .user1, .user2, .user3 {
-    border: 1px solid #2a3358;
+    border: 1px solid #2a335854;
     border-radius: 5px;
     border-bottom: none;
     padding: 30px;
@@ -195,4 +195,44 @@ nav ul.menu li a:hover {
 
 .user-img {
     height: 200px;
+}
+
+.vectors {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+}
+
+.vector-img {
+    height: 70px;
+}
+
+.subscribe {
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    background-image: linear-gradient(45deg, #1b5793, #d75a96);
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 100px;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.input {
+    display: flex;
+}
+
+.email-input {
+    height: 40px;
+    border-radius: 5px;
+}
+
+.subscribe-btn {
+    height: 40px;
+    background-color: #23A6F0;
+    color: white;
+    border-radius: 5px;
 }
