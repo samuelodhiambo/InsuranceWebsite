@@ -514,6 +514,10 @@ footer {
 }
 
 @media (max-width: 945px) {
+    .banners div {
+        margin-top: 0px;
+    }
+
     .section5-content {
         flex-direction: column;
         justify-content: center;
@@ -528,5 +532,39 @@ footer {
 
     ul.features {
         text-align: center;
+    }
+
+    .section8 {
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: white;
+        padding-top: 50px;
+    }
+
+    .links {
+        width: 40%;
+        text-align: justify;
+    }
+
+    .section3-content {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .user1, .user2, .user3 {
+        margin: 10px;
+    }
+
+    .vectors {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 100px;
+    }
+
+    .vectors img {
+        width: 26%;
+        margin: 10px;
     }
 }
