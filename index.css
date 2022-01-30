@@ -512,3 +512,21 @@ footer {
         display: none;
     }
 }
+
+@media (max-width: 945px) {
+    .section5-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .standard, .free, .premium {
+        width: 50%;
+        margin: 10px;
+    }
+
+    ul.features {
+        text-align: center;
+    }
+}
