@@ -27,7 +27,6 @@ a {
     background-size: cover;
     background-position: top left;
     margin-bottom: 200px;
-    opacity: 0.9;
 }
 
 .logo {
@@ -566,5 +565,48 @@ footer {
     .vectors img {
         width: 26%;
         margin: 10px;
+    }
+
+    .subscribe {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 670px) {
+    .links {
+        width: 45%;
+    }
+
+    .subscribe {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .main {
+        margin-bottom: 530px;
+    }
+
+    .banners {
+        flex-direction: column;
+    }
+
+    .banner1, .banner2, .banner3 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 595px) {
+    .links {
+        width: 50%;
+    }
+
+    .consult {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .contact2 {
+        margin-top: 10px;
     }
 }
