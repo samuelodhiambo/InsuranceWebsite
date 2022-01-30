@@ -604,6 +604,14 @@ footer {
     .branches-img {
         display: none;
     }
+
+    .contact-cover {
+        display: none;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
 }
 
 @media (max-width: 595px) {
@@ -619,5 +627,9 @@ footer {
 
     .contact2 {
         margin-top: 10px;
+    }
+
+    .standard, .free, .premium {
+        width: 70%;
     }
 }
