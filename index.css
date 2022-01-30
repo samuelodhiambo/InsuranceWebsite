@@ -236,3 +236,67 @@ nav ul.menu li a:hover {
     color: white;
     border-radius: 5px;
 }
+
+.section5 {
+    margin-top: 100px;
+}
+
+.section5-head {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.section5-content {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing {
+    text-align: center;
+    border: 1px solid #23A6F0;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.standard {
+    background-color: #1b5793;
+    padding-top: 70px;
+    color: white;
+}
+
+.free, .premium {
+    margin-top: 50px;
+}
+
+ul.features {
+    text-align: justify;
+}
+
+ul.features li {
+    margin: 10px;
+}
+
+.features li i {
+    color: green;
+}
+
+.features li i.unchecked {
+    color: gray;
+}
+
+.price {
+    color: #23A6F0;
+    padding: 20px;
+}
+
+.bigtext {
+    font-size: 3rem;
+}
+
+.try {
+    background-color: #23A6F0;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 80px;
+    margin: 20px;
+}
