@@ -651,3 +651,14 @@ footer {
         flex-wrap: wrap;
     }
 }
+
+@media (max-width: 533px) {
+    .links {
+        width: 90%;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
