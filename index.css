@@ -632,4 +632,14 @@ footer {
     .standard, .free, .premium {
         width: 70%;
     }
+
+    .subscribe {
+        flex-direction: column;
+        height: 210px;
+        text-align: center;
+    }
+
+    .subscribe p {
+        margin-bottom: 0px;
+    }
 }
