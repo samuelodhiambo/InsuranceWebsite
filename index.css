@@ -328,6 +328,7 @@ ul.features li {
     display: flex;
     justify-content: center;
     margin-top: -280px;
+    margin-bottom: 100px;
 }
 
 .contact-form {
@@ -365,4 +366,48 @@ ul.features li {
 .contact-form label{
     font-weight: bold;
     font-size: 1rem;
+}
+
+.consult {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.contact-us {
+    background-color: #23A6F0;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.section8 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding-top: 50px;
+}
+
+.links ul li a {
+    color: black;
+}
+
+.links ul li i {
+    color: #23A6F0;
+}
+
+.links ul li {
+    margin: 20px 0px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-icons a {
+    color: #23A6F0;
+    padding: 0px 10px;
 }
