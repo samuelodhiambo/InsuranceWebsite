@@ -661,4 +661,48 @@ footer {
         flex-wrap: wrap;
         text-align: center;
     }
+
+    .main {
+        margin-bottom: 700px;
+    }
+
+    .home-content {
+        text-align: center;
+    }
 }
+
+@media (max-width: 450px) {
+    .main {
+        padding-bottom: 800px;
+    }
+
+    .home-buttons {
+        flex-direction: column;
+    }
+
+    .pricing {
+        width: 95%;
+    }
+
+    .branches-txt {
+        width: 95%;
+    }
+
+    .contact-form {
+        width: 95%;
+    }
+
+    .links {
+        width: 95%;
+    }
+
+    .banners div {
+        width: 70%;
+    }
+}
+
+/*@media (max-height:414px) {
+    .main {
+        padding-bottom: 620px;
+    }
+}*/
