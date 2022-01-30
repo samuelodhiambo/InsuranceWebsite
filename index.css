@@ -615,6 +615,10 @@ footer {
 }
 
 @media (max-width: 595px) {
+    .main {
+        margin-bottom: 600px;
+    }
+
     .links {
         width: 50%;
     }
@@ -641,5 +645,9 @@ footer {
 
     .subscribe p {
         margin-bottom: 0px;
+    }
+
+    .section2 {
+        flex-wrap: wrap;
     }
 }
